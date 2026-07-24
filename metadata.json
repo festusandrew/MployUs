@@ -1,0 +1,6 @@
+{
+  "name": "MployUS Healthcare Platform",
+  "description": "Integrated Healthcare Workforce & Care Management Platform uniting recruitment, digital care plans, locum staffing, and facility management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
