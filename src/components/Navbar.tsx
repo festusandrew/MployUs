@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Sparkles, Menu, X, ArrowRight, Activity, UserPlus, HeartPulse, Users, Briefcase, Palette, Code2, CheckCircle2, Zap } from 'lucide-react';
+import { ChevronDown, Menu, X, ArrowRight, Activity, UserPlus, HeartPulse, Users, Briefcase, Palette, Code2, CheckCircle2, Zap } from 'lucide-react';
 import { UserRole } from '../types';
 
 interface NavbarProps {

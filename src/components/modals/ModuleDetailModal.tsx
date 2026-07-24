@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, CheckCircle2, ArrowRight, Shield, Zap, Sparkles } from 'lucide-react';
+import { X, CheckCircle2, ArrowRight, Shield, Zap } from 'lucide-react';
 import { ProductModule } from '../../types';
 
 interface ModuleDetailModalProps {
@@ -67,7 +67,9 @@ export const ModuleDetailModal: React.FC<ModuleDetailModalProps> = ({
           {/* Integration Highlight */}
           <div className="p-4 rounded-xl bg-slate-900 text-white flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <Sparkles className="w-6 h-6 text-teal-400 shrink-0" />
+              <div className="w-6 h-6 rounded-full bg-teal-500/20 flex items-center justify-center shrink-0">
+                <CheckCircle2 className="w-4 h-4 text-teal-400" />
+              </div>
               <div>
                 <div className="text-xs font-bold text-teal-300">Seamless Ecosystem Sync</div>
                 <div className="text-xs text-slate-300">Data captured here updates all other 3 modules instantly with zero duplicate entries.</div>

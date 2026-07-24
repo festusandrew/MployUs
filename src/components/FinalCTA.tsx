@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, CheckCircle2, Shield, Sparkles } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Shield } from 'lucide-react';
 
 interface FinalCTAProps {
   onBookDemo: () => void;

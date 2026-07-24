@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Play, Pause, Volume2, VolumeX, ShieldCheck, Sparkles, CheckCircle2 } from 'lucide-react';
+import { X, Play, Pause, Volume2, VolumeX, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
 interface VideoModalProps {
   isOpen: boolean;
@@ -116,7 +116,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose, onBookD
               
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold">
-                  <Sparkles className="w-5 h-5 animate-spin-slow" />
+                  <ShieldCheck className="w-5 h-5 text-teal-400" />
                 </div>
                 <div>
                   <h4 className="text-base font-bold text-white">{chapters[activeChapter].title}</h4>

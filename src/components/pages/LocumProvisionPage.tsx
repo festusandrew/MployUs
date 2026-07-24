@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, Clock, ShieldCheck, MapPin, Sparkles, CheckCircle2, ArrowRight, Zap, Calculator, Bell, Check, PhoneCall, AlertCircle, ArrowLeft, Star, Building2, UserCheck, Smartphone } from 'lucide-react';
+import { Users, Clock, ShieldCheck, MapPin, CheckCircle2, ArrowRight, Zap, Calculator, Bell, Check, PhoneCall, AlertCircle, ArrowLeft, Star, Building2, UserCheck, Smartphone } from 'lucide-react';
 
 interface LocumProvisionPageProps {
   onBackToHome: () => void;
@@ -239,7 +239,7 @@ export const LocumProvisionPage: React.FC<LocumProvisionPageProps> = ({
             </div>
 
             <div className="flex items-center gap-2 text-xs font-semibold text-slate-600">
-              <Sparkles className="w-4 h-4 text-emerald-600" />
+              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
               <span>Smart Locum Auto-Matching Engine Active</span>
             </div>
           </div>

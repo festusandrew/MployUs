@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Briefcase, ShieldCheck, CalendarClock, Stethoscope, BarChart3, CheckCircle2, ArrowRight, Sparkles, RefreshCw } from 'lucide-react';
+import { Briefcase, ShieldCheck, CalendarClock, Stethoscope, BarChart3, CheckCircle2, ArrowRight, RefreshCw } from 'lucide-react';
 import { WORKFLOW_STEPS } from '../data/mockData';
 
 interface HowItWorksProps {
@@ -19,7 +19,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onBookDemo, onStartTrial
   };
 
   const currentStep = WORKFLOW_STEPS[activeStep];
-  const Icon = iconMap[currentStep.iconName] || Sparkles;
+  const Icon = iconMap[currentStep.iconName] || CheckCircle2;
 
   return (
     <section id="how-it-works" className="py-20 bg-white text-slate-900 relative border-t border-slate-200 overflow-hidden">
@@ -28,7 +28,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onBookDemo, onStartTrial
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold uppercase tracking-wider mb-3">
-            <RefreshCw className="w-3.5 h-3.5 text-emerald-600" /> End-to-End Workflow
+            <RefreshCw className="w-3.5 h-3.5 text-slate-700" /> End-to-End Workflow
           </span>
           <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-slate-900">
             See How Everything Connects
@@ -41,7 +41,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onBookDemo, onStartTrial
         {/* Step Navigation Bar (Horizontal Timeline) */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 mb-8 bg-slate-100 p-2 rounded-xl border border-slate-200">
           {WORKFLOW_STEPS.map((s, idx) => {
-            const StepIcon = iconMap[s.iconName] || Sparkles;
+            const StepIcon = iconMap[s.iconName] || CheckCircle2;
             const isActive = activeStep === idx;
 
             return (

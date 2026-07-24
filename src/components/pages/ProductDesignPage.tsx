@@ -1,5 +1,5 @@
 import React from 'react';
-import { Palette, ArrowRight, ArrowLeft, Layout, Sparkles, Smartphone, Shield, Eye } from 'lucide-react';
+import { Palette, ArrowRight, ArrowLeft, Layout, Smartphone, Shield, Eye } from 'lucide-react';
 
 interface ProductDesignPageProps {
   onBackToHome: () => void;

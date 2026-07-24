@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { UserPlus, CheckCircle2, ArrowRight, ArrowLeft, Filter, Sparkles, Building2, Briefcase, FileCheck, Search } from 'lucide-react';
+import { UserPlus, CheckCircle2, ArrowRight, ArrowLeft, Filter, Building2, Briefcase, FileCheck, Search } from 'lucide-react';
 
 interface RecruitmentSoftwarePageProps {
   onBackToHome: () => void;

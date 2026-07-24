@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, ArrowRight, ShieldCheck, CheckCircle2, Sparkles, Building2, UserPlus, HeartPulse, Users, BarChart3, RefreshCw, Zap } from 'lucide-react';
+import { Play, ArrowRight, ShieldCheck, CheckCircle2, Building2, UserPlus, HeartPulse, Users, BarChart3, RefreshCw, Zap } from 'lucide-react';
 import { UserRole } from '../types';
 import { CLIENT_LOGOS } from '../data/mockData';
 
@@ -31,15 +31,15 @@ export const Hero: React.FC<HeroProps> = ({
         <div className="flex flex-col items-center text-center space-y-4 max-w-4xl mx-auto mb-8">
           
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold shadow-xs">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+            <ShieldCheck className="w-3.5 h-3.5 text-slate-700" />
             <span>Unified Healthcare Operating System</span>
             <span className="text-slate-300">•</span>
-            <span className="text-emerald-700 font-bold">UK CQC Compliant</span>
+            <span className="text-slate-900 font-bold">UK CQC Compliant</span>
           </div>
 
           {/* Main H1 */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-[1.08] font-['Plus_Jakarta_Sans',sans-serif]">
-            Recruit, Care, Staff, and Manage — <span className="text-slate-900 underline decoration-emerald-500/60 decoration-wavy decoration-2">All in One Platform</span>
+            Recruit, Care, Staff, and Manage — <span className="text-slate-900 underline decoration-slate-300 decoration-2">All in One Platform</span>
           </h1>
 
           {/* Subheadline */}
@@ -76,8 +76,8 @@ export const Hero: React.FC<HeroProps> = ({
 
           {/* Key Trust Micro-Badges */}
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 pt-2 text-xs text-slate-600 font-medium">
-            <span className="flex items-center gap-1.5 text-emerald-700 font-semibold">
-              <CheckCircle2 className="w-4 h-4 text-emerald-600" /> CQC Compliant
+            <span className="flex items-center gap-1.5 text-slate-800 font-semibold">
+              <CheckCircle2 className="w-4 h-4 text-slate-700" /> CQC Compliant
             </span>
             <span className="flex items-center gap-1.5 text-slate-700">
               <ShieldCheck className="w-4 h-4 text-slate-900" /> GDPR Secure
@@ -337,7 +337,7 @@ export const Hero: React.FC<HeroProps> = ({
                   <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-2">
                     <div className="font-bold text-slate-800 flex items-center justify-between">
                       <span>Voice Care Log Dictation</span>
-                      <span className="text-[10px] bg-blue-50 px-2 py-0.5 rounded-full text-blue-700 border border-blue-200 font-semibold">AI Transcribed</span>
+                      <span className="text-[10px] bg-blue-50 px-2 py-0.5 rounded-full text-blue-700 border border-blue-200 font-semibold">Voice Transcribed</span>
                     </div>
                     <p className="p-2 bg-slate-50 rounded-lg border border-slate-200 text-slate-700 italic text-[11px]">
                       "Resident enjoyed breakfast in the garden. Hydration levels monitored at 450ml. Mood bright."

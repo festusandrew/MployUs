@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Database, UserPlus, HeartPulse, Users, Building2, Sparkles, ArrowRight, ShieldCheck, Check } from 'lucide-react';
+import { Database, UserPlus, HeartPulse, Users, Building2, ArrowRight, ShieldCheck, Check, CheckCircle2 } from 'lucide-react';
 
 interface SolutionOverviewProps {
   onOpenModule: (modId: string) => void;
@@ -57,7 +57,7 @@ export const SolutionOverview: React.FC<SolutionOverviewProps> = ({ onOpenModule
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-semibold uppercase tracking-wider mb-3">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" /> Unified Architecture
+            <CheckCircle2 className="w-3.5 h-3.5 text-slate-700" /> Unified Architecture
           </span>
           <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-slate-900">
             One Platform. Four Powerful Modules.
